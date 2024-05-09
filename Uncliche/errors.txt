@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 105: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    "This is just a demo version of this game. To proceed, please purchase the game for the full gameplay. Thank you for supporting!"
+    ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Thu May  2 03:19:40 2024
