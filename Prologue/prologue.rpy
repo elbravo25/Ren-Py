@@ -122,7 +122,7 @@ label prlgue:
 
     ou "Not only is she lively but she was easilly able to get passed the barriers that I have setup all over the place."
 
-    show tarina breath with dissolve
+    show tarina amazement with dissolve
 
     show tarina neutral with dissolve
 
