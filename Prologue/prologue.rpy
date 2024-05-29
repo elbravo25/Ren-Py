@@ -98,6 +98,8 @@ label prlgue:
 
     scene oldBuilding
 
+    play music "oztheme.mp3"
+
     "As you walked through the alleyway you eventually come across a really old looking building."
 
     show tarina neutral at left with dissolve
@@ -113,7 +115,7 @@ label prlgue:
     t "{b}{size=+10}Gyaaaaaaaaah!!!{b}{/size}"
 
     show oz mischief with dissolve
-    # Add more description for Oz for future Genbu.
+    
     "A mysterious man shows up"
 
     show oz mischief at left with easeinleft
@@ -122,7 +124,7 @@ label prlgue:
 
     ou "Not only is she lively but she was easilly able to get passed the barriers that I have setup all over the place."
 
-    show tarina amazement with dissolve
+    show tarina breath with dissolve
 
     show tarina neutral with dissolve
 
