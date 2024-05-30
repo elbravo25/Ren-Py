@@ -1,6 +1,6 @@
 label prlgue:
 
-    scene bg city
+    scene bg City
 
     show tarina thinking
 
@@ -58,11 +58,15 @@ label prlgue:
 
     t "If I need help I should call you... Sure Mom!"
 
-    scene bg secludedspot
+    scene bg CityOverview
+
+    "Time passes by"
+
+    t "I say all of that to FriendA and here I am still jobless."
+
+    scene bg SecludedPartoftheCity
 
     show tarina sigh with dissolve
-    # Remind me to make this italics later.
-    t "I say all of that to FriendA and here I am still jobless."
     
     t "Am I really that hopeless?"
     # She hits a pole here.
@@ -82,10 +86,14 @@ label prlgue:
 
     t "It's not even 3pm, yet I don't hear any sounds that are usually there in this city."
 
-    scene bg alley
+    scene bg Alleyway
+
+    play music "oztheme.mp3"
 
     "As she falls silent she is suddenly drawn to a nearby alleyway."
-    # Play ominous music/sound here
+
+    
+
     menu:
         "Should you follow your instinct and follow where the allyway goes to?"
 
@@ -96,9 +104,8 @@ label prlgue:
         "Walk through the alleyway":
             "You followed went through the alleyway hoping for it to lead you somewhere."
 
-    scene oldBuilding
+    scene bg OldBuilding
 
-    play music "oztheme.mp3"
 
     "As you walked through the alleyway you eventually come across a really old looking building."
 
@@ -118,7 +125,7 @@ label prlgue:
     
     "A mysterious man shows up"
 
-    show oz mischief at left with easeinleft
+    show oz mischief at right with easeinleft
 
     ou "Hohohoo... what an interesting young lady."
 
@@ -170,7 +177,9 @@ label prlgue:
 
     o "Splendid! Now follow me inside the library."
 
-    scene bg libraryInside
+    scene bg LibraryInside
+
+    play music "librarytheme.mp3"
 
     show tarina amazed at left with dissolve
 
@@ -270,24 +279,10 @@ label prlgue:
         "Which world will you head in first?"
 
         "The Snow Queen":
-                t "I'll pick this, this sounds cool, if I do say so myself!"
-                show oz worry with dissolve
-                o "Oh a quick warning before you head in."
-                o "Do be careful when you go inside these worlds."
-                o "We still don't have enough information about the magic these books have after all."
-                show tarina smile with dissolve
-                t "Don't you worry Doc!"
-                t "I'll be back faster than you can say {i}'Winter is Coming'{/i}"
-                jump snowqueenBook
+            n "Browsing through an array of books, a certain title piqued Tarina’s eyes -- The Snow Queen. A story of bond between two sisters."
+            show tarina normal
+            t "This seems like a good choice. A straightforward story should be easy to make more unique, right?"
+            jump snowqueenBook
 
         "Peter Pan":
-                t "This will definitely be an adventure!"
-                t "I'll pick this."
-                show oz worry with dissolve
-                o "Oh a quick warning before you head in."
-                o "Do be careful when you go inside these worlds."
-                o "We still don't have enough information about the magic these books have after all."
-                show tarina smile with dissolve
-                t "Have faith Doc!"
-                t "I'll be back in a jiffy!"
-                jump peterpanBook
+            jump peterpanBook

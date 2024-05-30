@@ -15,6 +15,8 @@ label start:
 
     "In this continent filled with magic there is one prestigious academy that great old grand wizards and witches graduated from."
 
+    scene bg AcademyOverview
+
     "I as the voice in your head, welcome you to the Grand Academy of Magic."
     
     "A sanctum of magical knowledge garnered from all across the continent."
